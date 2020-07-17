@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+#nav{
+    display: inline-flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    top: 0px;
+}
+
+
+#nav ul{
+    display: flex;
+}
+
+#nav ul li{ 
+    list-style: none;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+#nav ul li a{
+    color: white;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+ #nav ul li a:hover{
+    color: black;
+    background-color: white;
+}
+
+.submenu1{
+	display: none;
+    background-color: #2E4053; 
+    border-radius: 16px;
+}
+#nav li:hover .submenu1{
+	display: inline-block;
+	position: absolute;
+	margin-top: 1px;
+}
+#nav li:hover .submenu1 ul{
+	display: flex;
+}
+
+
+#nav li:hover .submenu1 ul li{
+	display: inline;
+}
+
+
+#nav li:hover .submenu1 ul li ul{
+	display: inline
+}
+
+.submenu2{
+	display: none;
+}
+
+
+.hover:hover .submenu2{
+	display: inline;
+	position: absolute;
+	background-color: #2E4053;
+
+}
+
+body{
+	background-color: #CDD0D4 ;
+	background-image: url('https://dynamic.brandcrowd.com/asset/logo/c37b230e-8b19-48c3-b66f-f6d6bcfca854/logo?v=4');
+	background-repeat: no-repeat;
+	background-position: right bottom;
+	background-attachment: fixed;
+}
+.main{
+	height: 250px;
+	background-image: url('https://coolbackgrounds.io/images/backgrounds/index/compute-ea4c57a4.png');
+	background-size: cover;
+	border-radius: 10px;
+}
+.main h1{
+	text-align: left;
+	color: white;
+	padding-top: 50px;
+	padding-bottom: 50px;
+	padding-left: 20px;
+	font-size: 90px;
+}
+.container{
+	background-color: white;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #626364 ;
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 30px;
+	margin-left: 5px;
+}
